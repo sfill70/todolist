@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <changeSet id="230303-122422" author="kossatyy">
+        <createTable tableName="task">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="description" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="status" type="int">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="230303-122422-1" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">1</column>
+            <column name="description">aaa</column>
+            <column name="status">1</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-2" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">2</column>
+            <column name="description">bbb</column>
+            <column name="status">2</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-3" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">3</column>
+            <column name="description">ccc</column>
+            <column name="status">0</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-4" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">4</column>
+            <column name="description">ddd</column>
+            <column name="status">1</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-5" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">5</column>
+            <column name="description">eee</column>
+            <column name="status">2</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-6" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">6</column>
+            <column name="description">fff</column>
+            <column name="status">0</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-7" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">7</column>
+            <column name="description">ggg</column>
+            <column name="status">1</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-8" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">8</column>
+            <column name="description">hhh</column>
+            <column name="status">2</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-9" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">9</column>
+            <column name="description">jjj</column>
+            <column name="status">0</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-10" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">10</column>
+            <column name="description">kkk</column>
+            <column name="status">1</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-11" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">11</column>
+            <column name="description">lll</column>
+            <column name="status">2</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-12" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">12</column>
+            <column name="description">mmm</column>
+            <column name="status">0</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-13" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">13</column>
+            <column name="description">nnn</column>
+            <column name="status">1</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-14" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">14</column>
+            <column name="description">ooo</column>
+            <column name="status">2</column>
+        </insert>
+    </changeSet>
+    <changeSet id="230303-122422-15" author="kossatyy">
+        <insert tableName="task">
+            <column name="id">15</column>
+            <column name="description">ppp</column>
+            <column name="status">0</column>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
