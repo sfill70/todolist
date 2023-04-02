@@ -11,6 +11,8 @@ docker compose up
 http://localhost:8080/todolist/tasks
 ```
 
+image: mysql:8.0.32
+
 
 Technologies used
 - Spring (Core, Data, MVC)

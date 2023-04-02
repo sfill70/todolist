@@ -33,7 +33,6 @@ import java.util.Properties;
 @PropertySource("classpath:app-config.properties")
 @EnableTransactionManagement
 @EnableWebMvc
-//@EnableJpaRepositories("com.makos.mvctodolist.dao")
 @EnableJpaRepositories("com.javarush.golf.filippov.todolist.dao")
 @ComponentScan("com.javarush.golf.filippov.todolist")
 @Configuration
